@@ -1,0 +1,57 @@
+Python Challenge
+
+Your mission, should you choose to accept it, is to make a URL shortener API.
+Feel free to use any of the tools you are most familiar with (i.e Django or Flask).
+
+CORE REQUIREMENTS
+
+• We must be able to put a URL into the home page and get back a URL of
+the shortest possible length.
+• We must be redirected to the full URL when we enter the short URL (ex:
+http://localhost:3000/a => https://google.com)
+
+• There should be a page that shows the top 100 most frequently
+accessed URLs. []
+
+• There must be a background job that crawls the URL being shortened, pulls the <title> from the website and stores it.
+• Display the title with the URL on the top 100 board.
+• There must be a README that explains how to setup the application and
+the algorithm used for generating the URL short code.
+
+NICE TO HAVE:
+
+• Write a bot to populate your DB, and include it in the source code
+
+• Write Unit or Integration Tests
+
+DELIVERABLES
+
+• Github repository that should be sent at the END of the pair programming exercise.
+
+
+
+
+
+
+NOTES / HINTS
+
+• Deploy to Heroku or any other free host you're comfortable with.
+
+• Code must be on GitHub.
+
+• Be verbose with your commit messages as this will allow us to understand
+some of the decisions you make throughout the process.
+
+  Should show the URL that the app is redirecting you to
+
+• Feel free to use different parameter names, input types, and URLs. Remember to apply validations and think about edge cases.
+
+• Research and understand how to code an efficient URL shortener. Random strings with a fix length of chars is not an efficient answer. There is a Stack Overflow answer with the algorithm.
+
+• You may use Django, Flask, or any other web framework that uses Python you can think for the task.
+
+• You can use whatever database you are comfortable with. For the
+for the purposes of this exercise, we recommend a relational database.
+
+• Don't forget things like validations and demonstrating good clean Object
+Oriented Programming.
